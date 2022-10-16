@@ -9,4 +9,12 @@ class Node
 	  def to_s()
 		puts @value
 	  end
+
+	  def value()
+		@value
+	  end
+
+	  def next()
+		@next
+	  end
 end
